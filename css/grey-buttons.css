@@ -1,0 +1,27 @@
+ .button{
+    /*border: 5px solid;*/
+    text-decoration: none;
+    font-family: "Gotham A","Gotham B";
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 5px solid;
+    color: #776e67;
+  }
+  
+  .button.grey{
+      border-color: #e2ded2;
+  }
+  
+  .button.grey:hover{
+      background-color: #e2ded2;
+      transition: background-color .5s ease 0s;
+  }
+  
+  .button.grey:on
+  
+  .button .grey{
+    width: 400px;
+    /*border: 5px solid;
+    border-color: #e2ded2;*/
+  }
+  

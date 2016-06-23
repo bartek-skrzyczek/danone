@@ -1,0 +1,14 @@
+
+//HAMBURGER MENU FUNCTION
+
+function hamburgerToggle(){
+
+$('.hamburger-menu').on('click', function (e) {
+    e.preventDefault();    
+    $(this).toggleClass('open');
+    $('.menu-horizontal').toggleClass('slide-down');
+        }
+     )
+   };
+   
+   hamburgerToggle();

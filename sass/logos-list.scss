@@ -1,0 +1,76 @@
+$bt-logo-height:90px;
+
+
+.logos-list{
+  text-align: center;
+} 
+
+.logos-list li{
+  text-align:center;
+  display:inline-block;
+  vertical-align: middle;
+  padding: 10px 0;
+    }
+    
+.logos-list li a{
+    vertical-align: middle;
+  }
+  
+.logos-list .check{
+    display: block;
+    max-width: 480px;
+    margin: 20px;
+    height:80px;
+  }
+ 
+.logos-list li a:nth-child(3){
+   padding:20px;
+  }
+  
+.logos-smaller{
+    width:45%;
+}
+.bt-logos{
+    display: block;
+    max-width: 480px;
+    margin: 20px;
+    height:$bt-logo-height;
+    text-align:center;
+}
+
+.check{
+    background: url(../resources/button-arrow.png) right center no-repeat;
+}
+
+.small-logos-list{
+    width: calc((100% - 300px) / 4);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small-button{
+    width:300px;
+}
+
+#logos-list{
+    padding:32px 0;
+}
+
+  
+/*
+
+$btn-join-width: 100px;
+
+.img-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc((100% - 300px) / 4);
+}
+
+.btn-item {
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+*/

@@ -1,0 +1,56 @@
+/*
+-------------------------------------------------------------------
+THIS IS SIMPLE RWD GRID
+-------------------------------------------------------------------
+*/
+
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-full{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.row{
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.row::before, .row::after, .container:before, .container:after{
+    content:'';
+    display:table;   
+}
+
+.row::after{
+    clear:both;
+}
+
+.column, .columns{
+    float:left;
+}
+
+img{
+    max-width:100%;
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+-------------------------------------------------------------------
+CONTAINER WIDTH
+-------------------------------------------------------------------
+*/
+
+@media(min-width:768px){
+.container{width:750px;}
+}

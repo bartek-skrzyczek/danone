@@ -1,0 +1,62 @@
+footer{    
+    background: #f1f1f1;
+    position: relative;
+    height: 120px;
+    margin:0 65px;
+}
+
+.footer-desc li{
+    display:inline-block;
+}
+
+.danone-small{
+    background-image: url(../resources/danone-logo.png);
+}
+
+.zywiec-small{
+    background-image: url(../resources/zywiec-logo.png);
+}
+
+.nutricia-small{
+    background-image: url(../resources/nutricia-logo.png);
+}
+
+.medic-small{
+    background-image: url(../resources/nutricia-med-logo.png);
+}
+.footer-icon{
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 20px;
+    text-indent: -999999px;
+    width: 45px;
+    margin-top: 33px;
+}
+
+.blue-button-2-footer{
+    background-color: #0d277c;
+    height:75px;
+    width:75px;
+    background-image:url("../resources/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 30px -95px; 
+    position:absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+/*
+-------------------------------------------------------------------
+MEDIA QUERIES
+-------------------------------------------------------------------
+*/
+
+@media screen and (min-width:1024px){
+    .hidden-alt{
+        display:none;
+    }
+}

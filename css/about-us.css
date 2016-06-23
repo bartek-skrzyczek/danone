@@ -1,0 +1,67 @@
+
+h2 {
+    color: #1c186e;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #65aee0;
+    font-size: 22.8px;
+    line-height: 1.2;
+    margin-bottom: 44px;
+    margin-top: 40px;
+}
+
+p {    
+    margin: 0 0 20px;
+    line-height: 1.6;}
+
+.right > div{
+    margin: 0px 0px 20px 10px;
+}
+
+.crop:nth-child(1){
+    margin-right:10px;
+}
+
+.crop:nth-child(2){
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.crop:nth-child(3){
+    margin-right:10px;
+    margin-top:-10px;
+}
+
+.crop:nth-child(4){
+    margin-left:10px;
+    margin-top:20px;
+}
+
+.small-50-cropped{
+    width: calc(50% - 10px);
+}
+
+#about-us{
+    margin-bottom:100px;
+}
+
+#professional{
+    margin-bottom:100px;
+}
+
+
+.icon-title{
+    display: block;
+    font-size: 17px;
+    margin: 24px auto 0;
+    text-transform: uppercase;
+    width: 147px;
+    font-weight: 500;
+    color: #0d277b;
+    text-align: center;
+}
+
+

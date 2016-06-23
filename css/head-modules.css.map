@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,YAAY;EACR,MAAM,EAAC,IAAI;;AAGf,kBAAkB;EACd,KAAK,EAAE,kBAAkC;;AAG7C,mBAAmB;EACf,KAAK,EAAE,kBAAmC;EAC1C,gBAAgB,EAAE,IAAI;;AAG1B,cAAc;EACV,KAAK,EAAE,kBAAmC;;AAG9C,mBAAmB;EACf,KAAK,EAAE,kBAAmC;EAC1C,WAAW,EAAC,EAAE",
+"sources": ["../sass/head-modules.scss"],
+"names": [],
+"file": "head-modules.css"
+}

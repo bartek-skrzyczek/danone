@@ -1,0 +1,164 @@
+header {
+  background-color: #C0C0C0;
+  background-color: #e2ded2; }
+
+.container-full {
+  height: 130px; }
+
+.full {
+  width: 100%; }
+
+.danone-part {
+  line-height: 130px;
+  background-image: url("../resources/logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 78px;
+  padding-top: 52px; }
+
+.menu-horizontal {
+  line-height: 130px;
+  white-space: nowrap;
+  float: right; }
+
+.menu-horizontal li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px; }
+ 
+.menu-horizontal li a {
+    color: #0d277b;
+    display: inline-block;
+    letter-spacing: 2px;
+    line-height: 32px;
+    padding-bottom: 2px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.menu-horizontal li a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin: auto;
+    transition: width 0.5s ease, background-color 0.5s ease;
+    width: 0px; }
+
+.menu-horizontal li a:hover:after {
+    background: #0d277b;
+    width: 100%; }
+
+.main-menu-part {
+  float: left;
+  position: relative; }
+
+@media only screen and (max-width: 1024px) {
+  .slide-down {
+    height: 95px; } }
+.slide-down {
+  display: hide;
+  height: 262px; }
+
+/*
+---------------------------------------------------------------------------------------------------
+-------------------------------------------HAMBURGER-----------------------------------------------
+---------------------------------------------------------------------------------------------------
+*/
+.hamburger-menu {
+  display: none; }
+
+.hamburger-menu {
+  width: 40px;
+  height: 25px;
+  position: relative;
+  margin: 40px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+
+.hamburger-menu span {
+  display: block;
+  background: #0d277b;
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+.hamburger-menu span:nth-child(1) {
+  top: 0px; }
+
+.hamburger-menu span:nth-child(2) {
+  top: 18px; }
+
+.hamburger-menu span:nth-child(3) {
+  top: 18px; }
+
+.hamburger-menu span:nth-child(4) {
+  top: 36px; }
+
+/*
+--------------------------------------HAMBURGER ANIMATION------------------------------------------
+*/
+.hamburger-menu.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+.hamburger-menu.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.hamburger-menu.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.hamburger-menu.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+/*
+-----------------------------------------MEDIA QUERIES---------------------------------------------
+*/
+@media only screen and (max-width: 1024px) {
+  .hamburger-menu {
+    display: block;
+    float: right; }
+
+  .menu-horizontal {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear; }
+
+  .menu-horizontal .menu-item {
+    width: 100%; }
+
+  .slide-down {
+    height: 100vh;
+    top: 130px;
+    position: absolute;
+    left: 0px; } }
+
+/*# sourceMappingURL=header.css.map */

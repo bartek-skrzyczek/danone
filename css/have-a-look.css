@@ -1,0 +1,63 @@
+#have-a-look{
+    background:url(../resources/offerbg.JPG);
+}
+
+.icon{
+    background:url(../resources/sprite.png);
+}
+
+.cv-icon{
+    display:block;
+    height:72px;
+    width:57px;
+    background-repeat: no-repeat;
+}
+
+.phone-icon{
+    background-position: -82px 0;
+    width: 72px;
+    height:72px;
+    background-repeat: no-repeat;
+}
+
+.hands-icon{
+    background-position: -178px 0;
+    width: 105px;
+    height:72px;
+}
+
+.hand-icon{
+    background-position: -310px 0;
+    width: 62px;
+    height:72px;
+}
+
+.main-row h2{
+    font-size: 20px;
+    margin: 62px 0 50px 0;
+    text-align: center;
+}
+
+.hover-view{
+    height: 340px;
+    left: 0;
+    padding: 0 20px 0 30px;
+    position:relative;
+    margin-top:-153px;
+    width: 100%;
+    display: block;
+    opacity:0;
+    color:white;
+    background-color: #776e67;
+    }
+    
+
+  .hover-view:hover{
+    opacity:1;  
+    transition: 0.5s linear;
+  }
+
+
+p.displayed-text{
+    
+}

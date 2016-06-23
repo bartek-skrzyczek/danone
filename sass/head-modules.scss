@@ -1,0 +1,26 @@
+$bluebutton2:75px;
+$bluebutton2:75px;
+$blal:50%;
+$blala:45%;
+
+.module-1-10{
+    height:75px;
+}
+
+.small-50-tab-left{
+    width: calc(#{$blal} - #{$bluebutton2/2});
+}
+
+.small-50-tab-right{
+    width: calc(#{$blala} + #{$bluebutton2/2});
+    background-color: #fff;
+}
+
+.small-45-tabs{
+    width: calc(#{$blala} - #{$bluebutton2/2});
+}
+
+.small-45-tabs-left{
+    width: calc(#{$blala} - #{$bluebutton2/2});
+    margin-left:5%;
+}
