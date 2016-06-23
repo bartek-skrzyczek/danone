@@ -1,1 +1,1 @@
-# danone
+# Only web based Danone layout.
