@@ -21,6 +21,7 @@
 .horizontal-image{
     display:block;
     margin:auto;
+    position:relative;
 }
 
 .spacious{
@@ -41,9 +42,9 @@
     color: #0d277b;
     display: block;
     max-width: 90%;
-    margin: auto 9%;
     height: 90px;
     text-align: center;
+    margin: 20px 9%;
     }
     
 .left-span-blue{

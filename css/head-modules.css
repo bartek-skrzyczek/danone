@@ -16,3 +16,16 @@
   margin-left: 5%; }
 
 /*# sourceMappingURL=head-modules.css.map */
+
+.small-45-top-left{
+    width: calc(45% - 37.5px );
+}
+
+.small-45-bottom-left{
+    width: calc(45%);
+    margin-left: 5%;
+}
+
+.small-45-bottom-right{
+    width: calc(45%);
+}

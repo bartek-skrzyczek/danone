@@ -1,5 +1,6 @@
 #have-a-look{
     background:url(../resources/offerbg.JPG);
+    padding-bottom:150px;
 }
 
 .icon{
@@ -39,16 +40,16 @@
 }
 
 .hover-view{
-    height: 340px;
+    height: 350px;
     left: 0;
-    padding: 0 20px 0 30px;
-    position:relative;
-    margin-top:-153px;
+    top:0;
+    position:absolute;
     width: 100%;
     display: block;
     opacity:0;
     color:white;
     background-color: #776e67;
+    z-index:2;
     }
     
 
@@ -57,7 +58,23 @@
     transition: 0.5s linear;
   }
 
+/*
+display table!
+*/
 
-p.displayed-text{
-    
+.hidden .displayed-text{
+    color: #fff;
+    display: table-cell; 
+    font-size: 11px;
+    height: 224px;
+    vertical-align: middle;
+}
+
+.relative{
+    position:relative;
+}
+
+.dots{
+    width:80%;
+    z-index:3;
 }

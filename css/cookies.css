@@ -1,0 +1,20 @@
+.cookies-X{
+    font-style: uppercase;
+    color: #4d4d4d;
+    font-size: 25px;
+    padding: 15px;
+    position: absolute;
+    right: 4%;
+    top: 6%;
+    cursor: pointer;
+    font-weight: 700
+}
+
+#cookies{
+    background: #e2e2e2;
+    position: relative;
+}
+
+.cookies-inner{
+    padding: 78px 5% 58px
+}

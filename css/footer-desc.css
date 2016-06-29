@@ -5,8 +5,21 @@ footer{
     margin:0 65px;
 }
 
+.footer-desc{
+    margin-left:8%;
+    display:table;
+}
+
+.footer-desc-right{
+    float:right;
+    margin-right:15%;
+    display:table;
+}
+
 .footer-desc li{
-    display:inline-block;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 15px 0;
 }
 
 .danone-small{
@@ -24,6 +37,15 @@ footer{
 .medic-small{
     background-image: url(../resources/nutricia-med-logo.png);
 }
+
+.envelope-footer{
+    background-image: url(../resources/contact-ico.png);
+}
+
+.facebook-footer{
+    background-image: url(../resources/fb-ico.png);
+}
+
 .footer-icon{
     background-position: center center;
     background-repeat: no-repeat;
@@ -34,6 +56,22 @@ footer{
     text-indent: -999999px;
     width: 45px;
     margin-top: 33px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer-icon-right{
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 45px;
+    text-indent: -999999px;
+    width: 40px;
+    margin-top: 33px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .blue-button-2-footer{
@@ -47,7 +85,9 @@ footer{
     margin: 0 auto;
     left: 0;
     right: 0;
+    top:0;
 }
+
 
 /*
 -------------------------------------------------------------------
@@ -57,6 +97,19 @@ MEDIA QUERIES
 
 @media screen and (min-width:1024px){
     .hidden-alt{
-        display:none;
+
     }
+}
+
+#copyright {
+    padding: 0 0 30px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background: #f1f1f1;
+    height:0;
+}
+
+.container-full #copyright{
+    height:0;
 }

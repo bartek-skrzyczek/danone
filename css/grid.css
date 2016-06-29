@@ -47,7 +47,6 @@ img{
     height: auto;
 }
 
-
 /*
 -------------------------------------------------------------------
 CONTAINER WIDTH
@@ -76,8 +75,15 @@ CONTAINER WIDTH
     }
 }
 
+@media (min-width: 1600px){
+.container {
+    width: 92%;
+    }
+}
+
 .inner-container{
     margin:0 auto;
+    
 }
 
 /*
@@ -176,6 +182,11 @@ GRID
 
 .small-100{
     width:100%;
+}
+
+.right{
+    float:right;
+    margin-right:3%;
 }
 
 /*
